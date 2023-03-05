@@ -56,7 +56,7 @@ void loop() {
   
   // Displays remaining time on LCD screen
   if (!isFinished) {
- 	  lcd.print(minutes);
+ 	lcd.print(minutes);
   	lcd.print(":");
   	lcd.print(seconds);
   	lcd.print(" Remaining");  
